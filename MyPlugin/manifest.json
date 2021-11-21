@@ -1,0 +1,11 @@
+{
+  "name": "MyPlugin",
+  "id": "1044093090161280348",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "index.html"
+}

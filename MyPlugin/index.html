@@ -1,0 +1,16 @@
+<h2>Shape Creator</h2>
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<div id="status"></div>
+<script>
+
+  postAction = (e) => {
+    parent.postMessage({ pluginMessage: { type: e.target.id } }, '*')
+  }
+
+  document.getElementById('stop').onclick = postAction;
+  document.getElementById('start').onclick = postAction;
+
+  onmessage = m => { document.getElementById('status').innerText = m.data.pluginMessage; };
+
+</script>

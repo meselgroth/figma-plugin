@@ -1,0 +1,12 @@
+{
+  "name": "WidgetWithIframeAndBrowserApis",
+  "id": "1045226680863803942",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figjam"
+  ],
+  "containsWidget": true,
+  "widgetApi": "1.0.0",
+  "ui": "ui.html"
+}
